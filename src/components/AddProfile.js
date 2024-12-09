@@ -1,8 +1,8 @@
 import * as React from "react";
-import './AddProfile.css';
+import '../CSS/AddProfile.css';
 import Popup from "./ProfilePopup";
 import {useState} from 'react';
-import './ProfilePopup.css';
+import '../CSS/ProfilePopup.css';
 
 const AddProfile = ({ onProfileAdd }) => {
   const [buttonPopup, setButtonPopup] = useState(false);

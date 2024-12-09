@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import NavigationBar from './NavBar';
+import NavigationBar from '../NavBar';
 
-import './ProfileStatsPage.css';
+import '../CSS/ProfileStatsPage.css';
 
-import GameStatsChart from './GameStatsChart';
+import GameStatsChart from '../components/GameStatsChart';
 
 function ProfileStatsPage() {
   const { id } = useParams();

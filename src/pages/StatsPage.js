@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import NavigationBar from './NavBar';
-import AddGame from './AddGame';
-import GameDashboard from './GamesDashboard';
-import ProfileStats from './ProfileStats';
-import EditGameForm from './EditGameForm';
+import NavigationBar from '../NavBar';
+import AddGame from '../components/AddGame';
+import GameDashboard from '../components/GamesDashboard';
+import ProfileStats from '../components/ProfileStats';
+import EditGameForm from '../components/EditGameForm';
 
 function StatsPage() {
   const { id } = useParams();

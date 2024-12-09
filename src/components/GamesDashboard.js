@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useGame } from './GameContext';
 import GameCard from './GameCard';
-import './GameDashboard.css';
+import '../CSS/GameDashboard.css';
 
 const GameDashboard = ({ games = [], onDeleteGame, onEditGame }) => {
   const { setCurrentGame } = useGame();

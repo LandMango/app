@@ -1,5 +1,5 @@
 import React from 'react';
-import './GameCard.css';
+import '../CSS/GameCard.css';
 
 const GameCard = ({gameNum, date, duration, selected }) => {
   return (

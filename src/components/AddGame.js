@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Popup from './GamePopup';
-import './AddGame.css';
-import './GamePopup.css';
+import '../CSS/AddGame.css';
+import '../CSS/GamePopup.css';
 
 const AddGame = ({ onGameAdd }) => {
   const [buttonPopup, setButtonPopup] = useState(false);

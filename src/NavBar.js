@@ -2,10 +2,10 @@ import * as React from "react";
 import './Logo.css';
 import './NavigationBar.css';
 import './NavigationLink.css';
-import './AddProfile.css';
+import './CSS/AddProfile.css';
 
 import { Link } from 'react-router-dom';
-import { useProfile } from './ProfileContext';
+import { useProfile } from './components/ProfileContext';
 
 
 //could put current profile name, needs to be refresh after deletion though

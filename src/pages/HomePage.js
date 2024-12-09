@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'; 
 
-import NavigationBar from './NavBar'; 
-import AddProfile from './AddProfile'; 
-import ProfileDashboard from './ProfileDashboard';
-import EditProfileForm from './EditProfileForm';
+import NavigationBar from '../NavBar'; 
+import AddProfile from '../components/AddProfile'; 
+import ProfileDashboard from '../components/ProfileDashboard';
+import EditProfileForm from '../components/EditProfileForm';
 
 function HomePage() {
   const [profiles, setProfiles] = useState(() => {

@@ -1,5 +1,5 @@
 import * as React from "react";
-import './ProfileCard.css';
+import '../CSS/ProfileCard.css';
 
 export const ProfileCard = ({ profileName, date, games }) => {
 

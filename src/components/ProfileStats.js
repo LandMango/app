@@ -1,5 +1,5 @@
 import React from 'react';
-import  './ProfileStats.css';
+import  '../CSS/ProfileStats.css';
 import { Link } from 'react-router-dom';
 
 const ProfileStats = ({ profileId }) => {

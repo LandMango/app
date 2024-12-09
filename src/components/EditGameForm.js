@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './EditGameForm.css'
+import '../CSS/EditGameForm.css'
 
 const EditGameForm = ({ game, onSave, onCancel }) => {
   const [editedGame, setEditedGame] = useState({

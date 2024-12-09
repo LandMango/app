@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 
 import { BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
-import { ProfileProvider } from './ProfileContext';
-import { GameProvider } from './GameContext';
+import { ProfileProvider } from './components/ProfileContext';
+import { GameProvider } from './components/GameContext';
 
 
 

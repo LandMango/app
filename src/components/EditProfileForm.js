@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './EditProfileForm.css'
+import '../CSS/EditProfileForm.css'
 
 const EditProfileForm = ({ profile, onSave, onCancel }) => {
   const [editedProfile, setEditedProfile] = useState({

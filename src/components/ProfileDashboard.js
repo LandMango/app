@@ -1,7 +1,7 @@
 import * as React from "react";
 import ProfileCard  from './ProfileCard';
 import { Link } from "react-router-dom"; 
-import './ProfileDashboard.css';
+import '../CSS/ProfileDashboard.css';
 import { useProfile } from './ProfileContext';
 
 

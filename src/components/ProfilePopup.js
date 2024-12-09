@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProfilePopup.css';
+import '../CSS/ProfilePopup.css';
 
 function Popup(props)
 {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './GamePopup.css';
+import '../CSS/GamePopup.css';
 
 function Popup(props)
 {
