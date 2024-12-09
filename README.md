@@ -1,5 +1,5 @@
-CPSC 491 Capstone Project
-
+# CPSC 491 Capstone Project
+Alexander Ha
 
 
 # Getting Started with Create React App
