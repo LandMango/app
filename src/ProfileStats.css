@@ -1,0 +1,53 @@
+.profileStatsButton {
+    background-color: rgb(204, 91, 91);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 16px 32px;
+    transition: background-color 0.2s ease-in-out;
+    width: auto;
+    min-width: 200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px auto;
+    position: relative;
+    top: -81px;
+    left: 120px; 
+   
+}
+  
+  .profileStatsButton:hover {
+    background-color: rgb(184, 71, 71);
+  }
+  
+  .profileStatsButton:focus {
+    outline: 3px solid white;
+    outline-offset: 2px;
+    
+  }
+  
+  .profileStatsButton:active {
+    transform: translateY(1px);
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1200px) {
+    .profileStatsButton {
+      font-size: 28px;
+      padding: 14px 28px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .profileStatsButton {
+      font-size: 24px;
+      padding: 12px 24px;
+      width: 100%;
+    }
+  }

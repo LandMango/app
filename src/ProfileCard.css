@@ -1,0 +1,45 @@
+.profileCard {
+    display: flex;
+    align-items: center; /* Aligns items in the center vertically */
+    justify-content: space-between; 
+    gap: 5px;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    padding: 15px 5px;
+    background-color: #2c2c2c; 
+    margin-bottom: 10px;
+    font-size: 2rem; /* Scalable font size using rem */
+
+  }
+  
+  .avatar {
+    background-color: rgba(204, 91, 91, 1);
+    display: flex;
+    width: 92px;
+    height: 92px;
+    border-radius: 4px;
+    flex-shrink: 0; /* Prevent shrinking */
+
+  }
+  
+  .profileInfo {
+    flex-grow: 1;
+    margin: auto 0;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none !important; /* Remove underline on hover or focus */
+
+  }
+  .profileInfo:hover{
+    background-color: #b54d4d;
+  }
+
+  
+  @media (max-width: 991px) {
+    .profileCard {
+      font-size: 40px;
+    }
+    .profileInfo {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }

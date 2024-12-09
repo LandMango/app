@@ -1,0 +1,28 @@
+.gameCard {
+    display: flex;
+    margin-top: 9px;
+    gap: 19px;
+    font-size: 1.5rem; /* Scalable font size using rem */
+     background-color: #2c2c2c; 
+     color: white;
+
+  }
+  
+  .gameCard:hover{
+    background-color: #6a4747;
+  }
+  .gameCard.selected {
+    background-color: #632828;
+  }
+
+  .indicator {
+    background-color: rgb(204, 91, 91);
+    align-self: end;
+    width: 38px;
+    height: 91px;
+  }
+  
+  .gameInfo {
+    flex-basis: auto;
+    flex-grow: 1;
+  }

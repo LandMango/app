@@ -1,0 +1,147 @@
+
+.gcontentWrapper {
+    align-self: center;
+    width: 100%;
+    max-width: 1440px;
+    background-color: rgb(33, 30, 30);
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .contentGrid {
+    display: flex;
+    gap: 24px;
+    max-width: 100%;
+    
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    flex-shrink: 0;
+    overflow: auto; 
+  }
+  
+  .gamesSection {
+    background-color: rgba(75, 75, 75, 1);
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    height: 500px;
+    flex-grow: 1; 
+    min-height: 100px; 
+    max-height: 100%; 
+    overflow-y: auto;
+    
+  }
+
+  
+  .sectionTitle {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    background-color: rgb(204, 91, 91);
+    padding: 12px 16px;
+    margin: 0 0 16px 0;
+    border-radius: 4px;
+    line-height: 1.2;
+    
+  }
+  
+  .gameButton {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .gbuttonContainer {
+    display: flex;
+    gap: 8px;
+    margin: 8px 0 16px 57px;
+    
+  }
+  
+  .editButton, .deleteButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .editButton {
+    background-color: rgb(204, 91, 91);
+  }
+  
+  .deleteButton {
+    background-color: rgb(180, 60, 60);
+  }
+  
+  .editButton:hover, .deleteButton:hover {
+    opacity: 0.9;
+  }
+  
+  .editButton:focus, .deleteButton:focus {
+    outline: 2px solid white;
+    outline-offset: 2px;
+  }
+  
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    max-width: calc(70% - 32px);
+    
+  }
+  
+  .statsContainer {
+    position: relative;
+    background-color: rgba(75, 75, 75, 1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 400px;
+    
+  }
+
+  .statsOverlay { 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .gameStatsDashboard { 
+    margin: 10px 0; font-size: 1.25rem; line-height: 1.5;
+  }
+  .gameStatsDashboard p { 
+    margin: 10px 0; 
+    font-size: 1.25rem; 
+    line-height: 1.5; 
+  }
+  .videoDashboard { 
+    display: flex; 
+    flex-direction: column;
+     align-items: center; 
+     margin-bottom: 20px; 
+    } 
+    .videoDashboard p { 
+      font-size: 1.25rem; 
+      font-weight: bold; 
+      margin-bottom: 10px; 
+    } 
+    .centeredVideo { 
+      max-width: 100%; 
+      
+    }

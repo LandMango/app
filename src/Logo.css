@@ -1,0 +1,29 @@
+.logo {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  user-select: none;
+  white-space: nowrap;
+  overflow: visible;
+  flex-shrink: 0;
+
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.logo:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.logo:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo {
+    transition: none;
+  }
+}

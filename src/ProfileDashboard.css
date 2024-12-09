@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    font-family: Inter, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+  }
+  
+  .mainContent {
+    background-color: rgba(33, 30, 30, 1);
+    display: flex;
+    width: 90%;
+    padding-bottom: 60px;
+    flex-direction: column;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    margin-top: 28px;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 43px;
+  }
+  
+  .profilesContainer {
+    background-color: rgba(75, 75, 75, 1);
+    width: 90%;
+    flex-direction: row;
+    align-items: start;
+    font-size: 4vw;
+    padding: 0 80px 585px 0;
+  }
+  
+  .profilesList {
+    display: flex;
+    flex-direction: column;
+    width: 91%;
+    gap: 20px; 
+
+  }
+  
+  @media (max-width: 991px) {
+    .mainContent {
+      max-width: 100%;
+    }
+    .contentWrapper {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+
+    .profilesContainer {
+      font-size: 5vw;
+      padding: 0 20px 100px 0;
+    }
+    .profileItem {
+      max-width: 100%;
+      font-size: 4rem;
+      margin: 40px 0 10px;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    gap: 10px; /* Space between the buttons */
+  }
+  .deleteButton, .editButton {
+    background-color: #cc5b5b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    padding: 20px 20px;
+}
+
+.deleteButton:hover, .editButton:hover {
+    background-color: #b54d4d;
+}
