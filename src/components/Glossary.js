@@ -19,6 +19,11 @@ const termsData = [
         definition: "A high and deep shot designed to push the receiver to the back of the court. A defensive clear is very high in order to give the hitter time to prepare for the return and hence to slow down the rally. An offensive or attacking clear is lower but still over the receiver's reach and is designed to push the receiver back quickly in the hopes of a weaker return."},
     {term:'Clear Attempt', 
         definition: 'A player may attempt a clear and not score a point, but also not lose a point'},
+    {term: 'Drive FG',
+        definition: "A hard-hit flat stroke passing just above the net, generally from the front midline or sidelines. The drive is used when the shuttle is too low to be smashed but an attacking shot is still warranted."},
+    {term: 'Drive Attempt',
+        definition: "A player may attempt a drive and not score a point, but also not lose a point"},
+    
 
 ];
 const Glossary = () => {

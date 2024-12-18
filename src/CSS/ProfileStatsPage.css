@@ -3,10 +3,8 @@
     max-width: 85rem;
     margin: 0 auto;
     padding: 20px;
-    overflow-x: auto; 
-    
-  }
   
+  }
   
   .profileHeader {
     text-align: center;
@@ -15,17 +13,19 @@
   }
   
   
-  .statsTable {
+  .statsTable
+   {
+    padding-bottom: 0.5rem;
     width: 100%;
     border-collapse: collapse;
     margin: 50px 0;
-    
     display: block; 
-    
+    overflow-x: auto;
   }
   
   
-  .statsTable th, .statsTable td {
+  .statsTable th, .statsTable td
+  {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
@@ -35,24 +35,28 @@
   }
   
   
-  .statsTable th {
+  .statsTable th
+  {
     background-color: #b54d4d;
     border: 3px solid #000000;
     color: white;
   }
   
   
-  .statsTable tr:nth-child(even) {
+  .statsTable tr:nth-child(even)
+  {
     background-color: #eee;
   }
   
   
-  .statsTable tr:hover {
+  .statsTable tr:hover
+  {
     background-color: #ccc;
   }
   
 
-  .statsTable th, .statsTable td {
+  .statsTable th, .statsTable td 
+  {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -61,7 +65,6 @@
   .statsTableTwo
   {
     width: 100%; 
-    overflow-x: auto;  
     margin-bottom: 20px;
   }
 

@@ -40,6 +40,8 @@ const GameDashboard = ({ games = [], onDeleteGame, onEditGame }) => {
                     dropattempt = {game.dropattempt}
                     clearfg = {game.clearfg}
                     clearattempt ={game.clearattempt}
+                    drivefg = {game.drivefg}
+                    driveattempt ={game.driveattempt}
                     result = {game.result}
 
 
@@ -97,17 +99,21 @@ const GameDashboard = ({ games = [], onDeleteGame, onEditGame }) => {
                 <br/>
                 Sets:    {selectedGame.sets} <br/>
                 <br/>
-                SmasheFG:  {selectedGame.smashfg} <br/> 
+                Smashe FG:  {selectedGame.smashfg} <br/> 
                 <br/>
-                SmashAttempt:  {selectedGame.smasshattempt} <br/>
+                Smash Attempt:  {selectedGame.smasshattempt} <br/>
                 <br/>
-                DropFG:  {selectedGame.dropfg} <br/>
+                Drop FG:  {selectedGame.dropfg} <br/>
                 <br/>
-                DropAttempt:  {selectedGame.dropattempt} <br/>
+                Drop Attempt:  {selectedGame.dropattempt} <br/>
                 <br/>
-                ClearFG:  {selectedGame.clearfg} <br/>
+                Clear FG:  {selectedGame.clearfg} <br/>
                 <br/>
-                ClearAttempt:  {selectedGame.clearattempt} <br/>
+                Clear Attempt:  {selectedGame.clearattempt} <br/>
+                <br/>
+                Drive FG: {selectedGame.drivefg} <br/>
+                <br/>
+                Drive Attempt: {selectedGame.driveattempt} <br/>
                 <br/>
                 Result: {selectedGame.result}  <br/>
                 <br/>

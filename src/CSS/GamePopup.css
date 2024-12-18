@@ -63,6 +63,8 @@
   .gclearfgField, 
   .gclearattemptField, 
   .gresultField, 
+  .gdrivefgField,
+  .gdriveattemptField,
   .videoField,
   .gresultField {
     display: flex; 
@@ -83,6 +85,8 @@
   .gdropattemptInput, 
   .gclearfgInput, 
   .gclearattemptInput, 
+  .gdrivefgInput,
+  .gdriveattemptInput,
   .gresultInput, 
   .videoInput,
   .gresultInput

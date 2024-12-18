@@ -1,0 +1,52 @@
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(75, 75, 75, 1);
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cform-group {
+    margin-bottom: 15px;
+  }
+  
+  .corm-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .cform-group input,
+  .cform-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cform-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .cbutton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cbutton:hover {
+    background-color: #0056b3;
+  }
+  

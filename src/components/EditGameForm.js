@@ -18,6 +18,8 @@ const EditGameForm = ({ game, onSave, onCancel }) => {
     dropattempt:game.dropattempt,
     clearfg:game.clearfg,
     clearattempt:game.clearattempt,
+    drivefg:game.drivefg,
+    driveattempt:game.driveattempt,
     result:game.result,
   });
 
@@ -38,6 +40,8 @@ const EditGameForm = ({ game, onSave, onCancel }) => {
       dropattempt:game.dropattempt,
       clearfg:game.clearfg,
       clearattempt:game.clearattempt,
+      drivefg:game.drivefg,
+      driveattempt:game.driveattempt,
       result:game.result,
 
     });
@@ -104,7 +108,7 @@ const EditGameForm = ({ game, onSave, onCancel }) => {
                    name="score" 
                    aria-label="Score" 
                    className="gscoreInput" 
-                   placeholder="Score"
+                   placeholder="Score (example: 0-0, 0-0 )"
                    value = {editedGame.score}
                    onChange = {handleInputChange}
                    /> 
@@ -210,6 +214,28 @@ const EditGameForm = ({ game, onSave, onCancel }) => {
                     className="gclearattemptInput"  
                     value = {editedGame.clearattempt}
                     onChange = {handleInputChange}
+                    /> 
+              </div>
+
+              <div className="gdrivefgField"> 
+                    <label htmlFor="drivefg" className="ginputTitles">Drive FG: </label> 
+                    <input 
+                    type="number"
+                    id="drivefg" 
+                    name="drivefg" 
+                    aria-label="Drive FG" 
+                    className="gdrivefgInput"  
+                    /> 
+              </div>
+
+              <div className="gdriveattemptField"> 
+                    <label htmlFor="driveattempt" className="ginputTitles">Drive Attempt: </label> 
+                    <input 
+                    type="number"
+                    id="driveattempt" 
+                    name="driveattempt" 
+                    aria-label="Drive Attempt" 
+                    className="gdriveattemptInput"  
                     /> 
               </div>
                 

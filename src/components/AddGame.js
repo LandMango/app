@@ -29,6 +29,9 @@ const AddGame = ({ onGameAdd }) => {
       clearfg: formData.get('clearfg'),
       clearattempt: formData.get('clearattempt'),
 
+      drivefg: formData.get('drivefg'),
+      driveattempt: formData.get('driveattempt'),
+
       result: formData.get('result')
 
     };
@@ -83,7 +86,7 @@ const AddGame = ({ onGameAdd }) => {
                    name="score" 
                    aria-label="Score" 
                    className="gscoreInput" 
-                   placeholder="Score"/> 
+                   placeholder="Score (example: 0-0, 0-0 )"/> 
                 </div>
 
               <div className="gralliesField"> 
@@ -163,6 +166,28 @@ const AddGame = ({ onGameAdd }) => {
                     className="gclearattemptInput"  
                     /> 
               </div>
+
+              <div className="gdrivefgField"> 
+                    <label htmlFor="drivefg" className="ginputTitles">Drive FG: </label> 
+                    <input 
+                    type="number"
+                    id="drivefg" 
+                    name="drivefg" 
+                    aria-label="Drive FG" 
+                    className="gdrivefgInput"  
+                    /> 
+              </div>
+
+              <div className="gdriveattemptField"> 
+                    <label htmlFor="driveattempt" className="ginputTitles">Drive Attempt: </label> 
+                    <input 
+                    type="number"
+                    id="driveattempt" 
+                    name="driveattempt" 
+                    aria-label="Drive Attempt" 
+                    className="gdriveattemptInput"  
+                    /> 
+              </div>
                 
               <div className="gdurationField">
                 <label htmlFor="duration" className="ginputTitles">Duration: </label>
@@ -203,7 +228,7 @@ const AddGame = ({ onGameAdd }) => {
                 name="result" 
                 aria-label="Result" 
                 className="gresultInput" 
-                placeholder="Result" /> 
+                placeholder="Result (W or L)" /> 
                 </div>
 
               <button type="submit" className="gsaveButton">

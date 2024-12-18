@@ -28,6 +28,7 @@ export function NavigationBar() {
             ) : (
               <span className="navItem disabled">Stats</span>
             )}
+            <Link to="/contact" className ="navItem">Contact</Link>
           </div>
         </header>
       </div>
