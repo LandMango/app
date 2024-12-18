@@ -6,7 +6,7 @@
     color: #fff;
     font: 400 clamp(24px, 3vw, 48px) Inter, sans-serif;
     padding: 20px 40px;
-
+    padding-bottom: 0px;
   }
   
   .addProfileButton {
@@ -19,6 +19,9 @@
     color: inherit;
     border-radius: 8px; 
     transition: background-color 0.3s ease;
+    position: relative;
+    left: 40px;
+    top: 10px;
   }
   
   .addProfileButton:focus {

@@ -13,11 +13,10 @@
   min-width: 200px;
   height: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 12px auto;
+  
   position: relative;
-  left: -120px;
+  left: 425px;
+  top: 50px;
   text-align: center;
 }
 

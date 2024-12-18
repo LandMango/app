@@ -13,13 +13,10 @@
     min-width: 200px;
     height: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 12px auto;
+
     position: relative;
-    top: -81px;
-    left: 120px; 
-   
+    left: 655px;
+    top: -18.5px;
 }
   
   .profileStatsButton:hover {
